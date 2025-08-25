@@ -1,10 +1,10 @@
+```javascript
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 
 // ---------------------
 // Background Steps
 // ---------------------
 Given('the user has valid login credentials', () => {
-  // Placeholder for login credentials
   cy.wrap({ email: 'testuser@example.com', password: 'Test@123' }).as('userCredentials');
 });
 
